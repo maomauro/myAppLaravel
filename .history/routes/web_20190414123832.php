@@ -22,4 +22,4 @@
 
 Route::get('permiso/{nombre}', function ($nombre) {
     return $nombre;
-})->where('nombre', '[A-Za-z]+')->name('permiso');
+})->where('name', '[A-Za-z]+')->name('permiso');
